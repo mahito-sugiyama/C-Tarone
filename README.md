@@ -32,9 +32,9 @@ $ ./ctarone -i synth_N=1000_n=20.dat -c synth_N=1000_05.class -o out -t stat
 * `-c <class_file>`: a path to a file of input class labels (each line represents a binary (0/1) label of the corresponding line in `<input_file>`)
 * `-o <output_file>`: Output of significant feature combinations is written to `<output_file>`
 * `-t <output_stat_file>`: Output of statistics is written to `<output_stat_file>`
-* `-a <alpha>`: significance level for the FWER, where *C-Tarone* always guarantees "FWER < `<alpha>`"
+* `-a <alpha>`: significance level for the FWER, where *C-Tarone* always guarantees "FWER < `<alpha>`" (default: 0.05)
 * `-k <size_limit>`: the upper bound of the size of feature combinations (default: unlimited)
-* `-v <vervose>`: Verbose mode if specified
+* `-v`: Verbose mode if specified
 
 
 ## Contact
